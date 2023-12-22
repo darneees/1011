@@ -518,8 +518,8 @@ main .main-card:hover {
     height: 3.5rem;
   }
   main #popup {
-    top: 5.5%;
-    height: 85%;
+    top: 2%;
+    height: 90%;
   }
   main .main-card {
     padding: 1rem 2rem;
