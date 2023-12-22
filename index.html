@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import favicon -->
+    <link rel="shortcut icon" href="resource/img/favicon.ico" type="image/x-icon">
+    <!-- import css -->
+    <link rel="stylesheet" href="resource/css/style.css">
+    <!-- import icon -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>1011</title>
+</head>
+<body>
+
+    <span id="overlay"></span>
+    <button onclick="topFunction()" id="scrollTop" title="Go to top">
+        <i class="ph-bold ph-rocket"></i>
+    </button>
+
+    <header>
+        <h1 class="header-logo">1<span>0</span>11</h1>
+        <a href="https://github.com/darneees" target="_blank" class="reserved"><strong>© Douglas Sá</strong></a>
+        <label>
+            <i class="ph-bold ph-magnifying-glass"></i>
+            <input type="text" id="search-input" placeholder="busque por artigos" autocomplete="off">
+        </label>
+    </header>
+
+    <main>
+
+        <section id="popup">
+            <article class="popup-header">
+                <p id="postDate"></p>
+            </article>
+
+            <article class="popup-content">
+                <h2 id="modalTitle"></h2>
+                <p id="modalContent"></p>
+                <p id="modalArticle"></p>
+            </article>
+
+            <button id="close">
+                <i class="ph-bold ph-x"></i>
+            </button>
+        </section>
+
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Desvendando o Universo da Linguagem de Programação:</h2>
+                <p>A linguagem de programação é o meio através do qual os humanos interagem com os computadores, dando-lhes instruções para realizar tarefas específicas. Essas linguagens servem como ponte entre a mente huma</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 22/12/2023 às 09:10 AM" data-title="Uma Jornada pelas Principais Tecnologias"
+            data-content="Essas linguagens servem como ponte entre a mente humana e a máquina, permitindo a criação de programas e software que impulsionam nosso mundo digital. Neste artigo, exploraremos o fascinante universo da linguagem de programação, destacando algumas das principais e mais influentes." data-article="A linguagem de programação é um elemento vital no mundo da tecnologia, capacitando desenvolvedores a transformar ideias em realidade. As linguagens mencionadas aqui são apenas uma pequena amostra do vasto ecossistema de opções disponíveis. À medida que novas linguagens emergem e as existentes evoluem, a paisagem da programação continuará a se expandir, oferecendo um terreno fértil para a inovação e a criação de soluções tecnológicas cada vez mais avançadas.">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Especialista em segurança e privacidade muito respeitado alerta</h2>
+                <p>Bruce Schneier adverte que a tecnologia automatizará a análise de grandes volumes de dados, facilitando não apenas o monitoramento, mas também a interpretação de intenções e contextos, co</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 20/12/2023 às 14:13 PM" data-title="Uma nova era de espionagem em massa devido à IA:"
+            data-content="Bruce Schneier adverte que a tecnologia automatizará a análise de grandes volumes de dados, facilitando não apenas o monitoramento, mas também a interpretação de intenções e contextos, com implicações significativas para a privacidade pessoal e estratégias corporativas e governamentais na coleta de informações. Schneier sugere que a regulação governamental poderia ser uma solução, embora não seja otimista quanto à sua implementação. As informações são do site Ars Technica." data-article="">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Por que os hiperlinks são azuis em sua maioria?</h2>
+                <p>Quem navega na internet, certamente já percebeu que ela conta com diversos recursos para tornar a nossa vida mais fácil. Entre essas opções podemos mencionar os hiperlinks - uma palavra ou termo clicável que direciona o lei</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 17/11/2023 às 16:25 PM" data-title="Por que os Hiperlinks São na Maioria Azuis?"
+            data-content="Você já parou para se perguntar por que a maioria dos hiperlinks na web é exibida em azul? Essa escolha de cor aparentemente padrão não é por acaso; há uma história fascinante por trás dessa convenção que remonta aos primórdios da internet. Neste artigo, vamos explorar as razões por trás da prevalência da cor azul nos hiperlinks e como essa prática se tornou uma norma na experiência de navegação online." data-article="Em última análise, a prevalência de hiperlinks azuis é uma tradição da web que continua a ser respeitada e seguida. A escolha dessa cor não é apenas estética; é uma decisão baseada em décadas de experiência do usuário, acessibilidade e design intuitivo. Ao entender as razões por trás dessa prática, os designers podem tomar decisões informadas ao criar experiências online que são tanto visualmente atraentes quanto funcionais.">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+        
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>GitHub agora permite fazer login sem precisar de senha</h2>
+                <p>O GitHub anunciou nesta quarta-feira (12) o acesso a partir das passkeys, método de autenticação sem senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação em dois fator</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 13/07/2023 às 10:01 AM" data-title="Agora é Possível Fazer Login Sem Senha!"
+            data-content="Em uma reviravolta emocionante para a comunidade de desenvolvedores, o GitHub, uma das plataformas mais essenciais para colaboração e versionamento de código, anunciou recentemente uma atualização significativa: agora é possível fazer login sem a necessidade de inserir uma senha. Neste artigo, vamos explorar essa nova funcionalidade e como ela simplifica a experiência de acesso à plataforma." data-article="Com o GitHub liderando o caminho, a autenticação sem senha representa uma mudança emocionante na forma como os desenvolvedores acessam suas contas e contribuem para projetos. Ao eliminar a dependência de senhas tradicionais, o GitHub não apenas simplifica a experiência do usuário, mas também reforça a segurança, oferecendo um vislumbre do que podemos esperar na evolução da autenticação digital.">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+        
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Empresa de publicidade digital alega que utiliza a técnica de “escuta ativa”</h2>
+                <p>esse é um dos assuntos mais controversos na área de marketing digital - o uso de dados de voz para publicidade personalizada nas redes sociais e buscas do Google. No entanto, há pouc</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 02/06/2023 às 08:21 AM" data-title="Smartphones e outros dispositivos inteligentes para anúncios direcionados:"
+            data-content="esse é um dos assuntos mais controversos na área de marketing digital - o uso de dados de voz para publicidade personalizada nas redes sociais e buscas do Google. No entanto, há poucas evidências de que microfones de smartphones estejam realmente capturando conversas com esse intuito, apesar dos incentivos financeiros. A empresa afirma que tudo seria perfeitamente legal, pois os usuários dão seu consentimento ao aceitar os termos e condições de uso em aplicativos que usam o serviço." data-article="As alegações, entretanto, não puderam ser verificadas e Google, Facebook, Microsoft e Amazon, listadas como parceiras no site da empresa de publicidade, não responderam aos pedidos de comentários do jornalista que escreveu a matéria. As informações são do site Gizmodo.">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+        
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Operação da Interpol resulta na prisão de 3.500 suspeitos de crimes cibernéticos</h2>
+                <p>conduzida por autoridades sul-coreanas, em colaboração com agências de 34 países, a operação “HAECHI IV” ocorreu entre julho e dezembro, focando em diversas atividades ilegais como phishing, golpes amorosos, extor</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 12/04/2023 às 18:13 PM" data-title="Foram mais de 300 milhões de dólares em recursos ilícitos:"
+            data-content=" conduzida por autoridades sul-coreanas, em colaboração com agências de 34 países, a operação “HAECHI IV” ocorreu entre julho e dezembro, focando em diversas atividades ilegais como phishing, golpes amorosos, extorsão online, lavagem de dinheiro e fraudes financeiras. As informações são do site Bleeping Computer." data-article="">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+        
+        <section class="main-card">
+            <article class="card-header">
+                <p>Autor: 1011</p>
+                <img src="resource/img/border.svg" alt="imagem ilustrativa de um coração que representa um botão de like" title="like" onclick="like(this)">
+            </article>
+
+            <article class="card-content">
+                <h2>Fabricante de carteiras de criptomoedas Ledger sofre ataque</h2>
+                <p>conduzida por autoridades sul-coreanas, em colaboração com agências de 34 países, a operação “HAECHI IV” ocorreu entre julho e dezembro, focando em diversas atividades ilegais como phishing, golpes amorosos, extor</p>
+            </article>
+
+            <button class="open" data-posted="Última atualização em 05/02/2023 às 12:11 PM" data-title="Código malicioso presente em library JavaScript: "
+            data-content="A conta de um ex-funcionário, que tinha suas credenciais ainda ativas, foi violada por meio de um ataque de phishing, permitindo o upload de uma biblioteca maliciosa à conta de registro NPM da empresa. Dezenas de outros projetos utilizam a library “Ledger Connect Kit” e o dano - estimado em 610 mil dólares - foi limitado porque o arquivo comprometido ficou ativo por apenas duas horas. As informações são do site The Register." data-article="">
+                <i class="ph-bold ph-arrow-right"></i>
+            </button>
+        </section>
+
+    </main>
+
+    <script src="resource/js/script.js"></script>
+    
+</body>
+</html>
