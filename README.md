@@ -29,10 +29,6 @@ BUSCA:
 ![FILTRO](https://github.com/darneees/1011/assets/79709843/dd72602e-d3bc-4964-becb-fd00f5a5dd5e)
 
 
-## :desktop_computer: Deployed
-
-
-
 <p align="center">Desafios de front-end com projetos práticos da comunidade Codelândia no <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=0-1&mode=design&t=Xn9qU8AsI02GX84P-0">Figma</a>, idealizada pelo <a href="https://www.iuricode.com/">Iuri Silva</a>.</p>
 
 <h3 align="center">
