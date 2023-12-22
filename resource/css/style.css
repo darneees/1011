@@ -557,8 +557,8 @@ main .main-card:hover {
     padding: 3rem 0;
   }
   main #popup {
-    top: 0 auto;
-    height: 92%;
+    top: 2%;
+    height: 90%;
   }
   main #popup .popup-content #modalArticle {
     display: none;
