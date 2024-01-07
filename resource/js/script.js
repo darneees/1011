@@ -95,3 +95,13 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// scroll reveal
+
+ScrollReveal().reveal('.main-card', {
+    delay: 500,
+    distance: '50px',
+    origin: 'top',
+    duration: 800,
+    reset: true
+})
